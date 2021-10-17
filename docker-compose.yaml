@@ -1,0 +1,9 @@
+version: '3.5'
+services:
+  php:
+    build: docker/php
+    volumes:
+      - ./:/var/www/app
+    working_dir: /var/www/app
+    user: 1000:1000
+    command: ['php', './index.php']

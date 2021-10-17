@@ -1,0 +1,20 @@
+{
+  "name": "lkula/allegro-categories",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Lkula\\AllegroCategories\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Łukasz Kula",
+      "email": "lukasz4714@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.3",
+    "ext-json": "*",
+    "ext-simplexml": "*"
+  }
+}
